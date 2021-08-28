@@ -24,7 +24,7 @@ function loadJokes(e) {
     return;
   }
 
-  fetch(`http://api.icndb.com/jokes/random/${numberJokes}`)
+  fetch(`https://api.icndb.com/jokes/random/${numberJokes}`)
     .then((res) => res.json())
     .then((data) => (res = displayJokes(data.value)));
 }
