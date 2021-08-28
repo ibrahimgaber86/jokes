@@ -1,0 +1,28 @@
+button {
+  background-color: #1d4354;
+  color: white;
+  transition: all 100ms;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  color: white;
+  box-shadow: 3px 3px 5px rgb(49, 48, 48);
+}
+
+button:active:hover {
+  transform: translateY(-1px);
+  color: white;
+  box-shadow: 3px 3px 5px black;
+}
+
+hr {
+  height: 3px;
+}
+
+ul {
+  list-style: none;
+}
+li:nth-child(even) {
+  color: red;
+}
